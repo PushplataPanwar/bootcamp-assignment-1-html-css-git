@@ -7,6 +7,7 @@
 body {
     background-color: #d9dcd6;
 }
+
 /* adding styles to <header> */
 .header {
     padding: 20px;
@@ -61,7 +62,7 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/* Hero Style Ends */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -142,7 +143,7 @@ p {
 /* ending styles to benefits   */
 
 /* adding styles to search-engine-optimization  */
-.search-engine-optimization , .social-media-marketing {
+.search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -154,19 +155,23 @@ p {
 .search-engine-optimization img {
     max-height: 200px;
 }
-.social-media-marketing img {
-    max-height: 200px;
-}
+
 
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
 /* End styles to search-engine-optimization  */
 
+/* Start styles to .social-media-marketing h2  */
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
+}
+
+.social-media-marketing img {
+    max-height: 200px;
 }
 
 .social-media-marketing {
@@ -178,7 +183,8 @@ p {
     color: #ffffff;
 }
 
-/* adding styles to online-reputation-management  */
+/* End styles to .social-media-marketing h2  */
+/* adding styles to online-reputation-managements  */
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -187,6 +193,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
+
 .online-reputation-management img {
     max-height: 200px;
 }
@@ -196,6 +203,7 @@ p {
     font-size: 36px;
 }
 
+/* End styles to online-reputation-managements  */
 /* FOOTER STYLES START */
 .footer {
     padding: 30px;
